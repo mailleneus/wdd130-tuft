@@ -178,6 +178,41 @@ h3, h4, h5, h6 {
     width: 33%;
     text-align: center;
 }
+
+/* Game Changer Tips */
+#gct-title {
+    text-align: center;
+    background-color: gray;
+    margin: 0;
+    padding: 2em 0;
+}
+
+#gct-title h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+#gct-content {
+    width: 100%;
+}
+
+#gct-content section::after {
+    /*"Clearfix"*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#gct-content h2 {
+    font-size: 2.5em;
+}
+
+#gct-content img {
+    width: 20em;
+    float: left;
+    margin-right: 1em;
+}
+
 @media (max-width: 1200px) {
     .features-table {
         display: block;
